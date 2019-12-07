@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Ignore all SQLite databases
+db/*.sqlite3
+
