@@ -8,6 +8,14 @@ verify_ssl = true
 [packages]
 flask = "*"
 flask-sqlalchemy = "*"
+sqlalchemy = "*"
+tweepy = "*"
+basilica = "*"
+python-decouple = "*"
+scikit-learn = "*"
+python-dotenv = "*"
+gunicorn = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.7"
