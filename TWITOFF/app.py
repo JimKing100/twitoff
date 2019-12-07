@@ -12,7 +12,7 @@ def create_app():
     """ Creates and configures an instance of a flask app """
     app = Flask(__name__)
 
-    app.config['SQLALCHEMY_DATABASE_URI'] = config('DATABASE_URL')
+    app.config['SQLALCHEMY_DATABASE_URI'] = config('postgres://damyfbfpiubrao:3369ec9058ea656d735dc4ea6623a2c57db8010325c94c7ba76fe3c68abece67@ec2-174-129-255-21.compute-1.amazonaws.com:5432/d71n5v4nakgvir')
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     DB.init_app(app)
 
